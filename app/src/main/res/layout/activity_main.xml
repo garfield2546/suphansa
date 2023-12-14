@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/num2EditText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINUS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="PLUS"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/bt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIVIDER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="MULTIPLY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODULO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <Button
+        android:id="@+id/bt06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614" />
+
+    <TextView
+        android:id="@+id/mini"
+        android:layout_width="396dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="600dp"
+        android:text="Mini Calculator"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="70dp" />
+
+    <TextView
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Num1"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Num2"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/num1EditText"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <EditText
+        android:id="@+id/num2EditText"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/bt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
